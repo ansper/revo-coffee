@@ -1,0 +1,35 @@
+@use 'sass:math';
+@use '../../assets/styles/variables';
+
+$row: 768px;
+
+header {
+    position: relative;
+    height: 768px;
+    .container {
+        display: grid;
+        grid-template-columns: math.div(385px, 1400px) * 100% math.div(688px, 1400px) * 100% math.div(327px, 1400px) * 100%;
+        grid-template-rows: $row;
+        .logo {
+            justify-items: center;
+            margin: 72px auto 0;
+        }
+        .intro__img {
+            img {
+                width: 100%;
+                height: $row;
+            }
+        }
+    }
+    .header__text {
+        position: absolute;
+        color: variables.$PrimaryColor;
+        bottom: math.div(64px, 768px) * 100%;
+        left: math.div(144px, 1400px) * 100%;
+        b {
+            color: #F9FBFF;
+            background: variables.$AccentColor;
+            padding: 0 15px;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Black.ttf');
+}
+@font-face {
+    font-family: NunitoBold;
+    src: url('../fonts/Nunito-Bold.ttf');
+}
+@font-face {
+    font-family: NunitoLight;
+    src: url('../fonts/Nunito-LightItalic.ttf');
+}
+@font-face {
+    font-family: NunitoRegular;
+    src: url('../fonts/Nunito-Regular.ttf');
+}
+@font-face {
+    font-family: NunitoSemiBold;
+    src: url('../fonts/Nunito-SemiBold.ttf');
+}
+
+// Font-weight
+$DisplayLarge-weight: 900;
+$DisplayMedium-weight: 900;
+$Title-weight: 700;
+$SubTitle-weight: 600;
+$PriceProduct-weight: 600;
+$Body-weight: 400;
+$Description-weight: 300;
+$Button-weight: 700;
+// Font-size
+$DisplayMedium-size: 30px;
+$DisplayLarge-size: 54px;
+$Title-size: 24px;
+$SubTitle-size: 20px;
+$PriceProduct-size: 20px;
+$Body-size: 16px;
+$Description-size: 16px;
+$Button-size: 16px;
+// Line-height
+$SubTitle-line: 24px;
+$Title-line: 28px;
+$DisplayLarge-line: 70px;
+$DisplayMedium-line: 34px;
+$PriceProduct-line: 24px;
+$Body-line: 20px;
+$Description-line: 20px;
+$Button-line: 20px;
+// Fonts
+$SubTitle-font: NunitoSemiBold;
+$Title-font: NunitoBold;
+$DisplayLarge-font: Montserrat;
+$DisplayMedium-font: Montserrat;
+$PriceProduct-font: NunitoSemiBold;
+$Body-font: NunitoRegular;
+$Description-font: NunitoLight;
+$Button-font: NunitoBold;
+// colors
+$PrimaryColor: #415167;
+$AccentColor: #C7A17A;
+$Darkgray: #151D28;
+$Lightgray: #EDF0F5;
+$BeigeColor: #F9F5E8;
+
+:root {
+    --DisplayLarge-weight: 900;
+    --DisplayMedium-weight: 900;
+    --Title-weight: 700;
+    --SubTitle-weight: 600;
+    --PriceProduct-weight: 600;
+    --Body-weight: 400;
+    --Description-weight: 300;
+    --Button-weight: 700;
+    --DisplayMedium-size: 30px;
+    --DisplayLarge-size: 54px;
+    --Title-size: 24px;
+    --SubTitle-size: 20px;
+    --PriceProduct-size: 20px;
+    --Body-size: 16px;
+    --Description-size: 16px;
+    --Button-size: 16px;
+    --SubTitle-line: 24px;
+    --Title-line: 28px;
+    --DisplayLarge-line: 70px;
+    --DisplayMedium-line: 34px;
+    --PriceProduct-line: 24px;
+    --Body-line: 20px;
+    --Description-line: 20px;
+    --Button-line: 20px;
+    --SubTitle-font: NunitoSemiBold;
+    --Title-font: NunitoBold;
+    --DisplayLarge-font: Montserrat;
+    --DisplayMedium-font: Montserrat;
+    --PriceProduct-font: NunitoSemiBold;
+    --Body-font: NunitoRegular;
+    --Description-font: NunitoLight;
+    --Button-font: NunitoBold;
+    --PrimaryColor: #415167;
+    --AccentColor: #C7A17A;
+    --Darkgray: #151D28;
+    --Lightgray: #EDF0F5;
+    --BeigeColor: #F9F5E8;
+}

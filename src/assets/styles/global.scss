@@ -1,0 +1,33 @@
+@use 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: variables.$DisplayLarge-size;
+    font-weight: variables.$DisplayLarge-weight;
+    font-family: variables.$DisplayLarge-font;
+    line-height: variables.$DisplayLarge-line;
+}
+
+h2 {
+    font-size: variables.$Title-size;
+    font-weight: variables.$Title-weight;
+    font-family: variables.$Title-font;
+    line-height: variables.$Title-line;
+}
+
+nav {
+    li {
+        a {
+            color: variables.$Lightgray;
+            text-decoration: none;
+            font-size: variables.$Body-size;
+            font-weight: variables.$Body-weight;
+            font-family: variables.$Body-font;
+            line-height: variables.$Body-line;
+        }
+    }
+}

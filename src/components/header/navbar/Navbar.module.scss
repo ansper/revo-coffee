@@ -1,0 +1,15 @@
+@use '../../../assets/styles/variables';
+
+.navbar {
+    background: variables.$PrimaryColor;
+    padding: 72px 0 0 55px;
+    h2 {
+        margin-top: 118px;
+        color: variables.$Lightgray;
+    }
+    ul {
+        li {
+            margin-top: 30px;
+        }
+    }
+}
