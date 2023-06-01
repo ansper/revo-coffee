@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+._container {
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: variables.$DisplayLarge-size;
     font-weight: variables.$DisplayLarge-weight;
@@ -17,6 +22,22 @@ h2 {
     font-weight: variables.$Title-weight;
     font-family: variables.$Title-font;
     line-height: variables.$Title-line;
+}
+
+.subTitle {
+    font-size: variables.$SubTitle-size;
+    font-weight: variables.$SubTitle-weight;
+    font-family: variables.$SubTitle-font;
+    line-height: variables.$SubTitle-line;
+    color: variables.$PrimaryColor;
+}
+
+h3 {
+    font-size: variables.$DisplayMedium-size;
+    font-weight: variables.$DisplayMedium-weight;
+    font-family: variables.$DisplayMedium-font;
+    line-height: variables.$DisplayMedium-line;
+    color: variables.$PrimaryColor;
 }
 
 nav {

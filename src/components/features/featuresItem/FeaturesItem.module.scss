@@ -1,0 +1,20 @@
+@use 'sass:math';
+@use '../../../assets/styles/variables';
+
+.item {
+    max-width: math.div(275px, 1400px) * 100%;
+    &:not(:last-child) {
+        margin-right: 70px;
+    }
+    h2 {
+        margin: 41px 0 12px;
+        color: #232C38;
+    }
+    p {
+        color: variables.$Darkgray;
+        font-size: variables.$Body-size;
+        font-weight: variables.$Body-weight;
+        font-family: variables.$Body-font;
+        line-height: variables.$Body-line;
+    }
+}
